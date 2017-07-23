@@ -1,0 +1,32 @@
+{% extends  'DjangoApp/base.html' %}
+
+{% block content %}
+<!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>List Page!</h1>
+        <p>Have a look at around to see some of Created list.</p>
+      </div>
+    </div>
+
+    <div class="container">
+	    <div class="row">
+		    <div class="col-md-6">
+		    	<table class="table">
+					<tr>
+						<th>No</th>
+						<th>Name</th>
+						<th>Email</th>
+					</tr>
+					{% for mylist in mytable %}
+					<tr>
+						<td>{{mylist.id}}</td>
+						<td>{{mylist.name}}</td>
+						<td>{{mylist.email}}</td>
+					</tr>
+					{% endfor %}
+				</table>
+		    </div>
+	    </div>
+	</div>
+{% endblock %}

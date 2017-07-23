@@ -1,0 +1,20 @@
+{% extends  'DjangoApp/base.html' %}
+
+{% block content %}
+<!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Welcome to DjangoApp</h1>
+        <p>This app have tow parts list and Create to database</p>
+      </div>
+    </div>
+
+    <div class="container">
+	    <div class="row">
+			<ul>
+				<li><a href="/list/">List</a></li>
+				<li><a href="/add/">Create</a></li>
+			</ul>
+		</div>
+	</div>
+{% endblock %}
