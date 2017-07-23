@@ -11,6 +11,9 @@ Full App
 This is Django App, that adds a name / email address to the sqlite database. And also should validate input and show errors.
 
 The App is found in the jenkens_job Directory
+
+
+
 -----------------------------------------------------------------------------------------------------
 
 Made by: Sintayehu Abaynhe(sinteco)
